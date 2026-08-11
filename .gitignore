@@ -1,0 +1,15 @@
+# Local configuration
+config.cmd
+
+# Runtime-generated logs
+logs/
+*.log
+
+# User-provided llama.cpp runtime files
+runtime/*
+!runtime/README.md
+
+# User-provided models
+models/*
+!models/README.md
+*.gguf
